@@ -2,8 +2,8 @@
 include('config.php');
 $conexion = getDB();
 $nombre = $_POST['nombre'];
-$correo = $_POST['correo'];
-$contra = $_POST['contra'];
+$correo = $_POST['correoReg'];
+$contra = $_POST['contraReg'];
 $tel = $_POST['tel'];
 
 $existente = "SELECT * FROM usuario WHERE contra='$contra'";
