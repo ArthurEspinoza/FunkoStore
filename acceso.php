@@ -22,7 +22,7 @@
 	</div>
 	<div class="contenedor">
 		<div id="panel1">
-			<form method="post" action="php\ingresar.php" onsubmit="return validar();">
+			<form method="post" action="php\ingresar.php">
 				<input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
 				<input type="text" id="contra" name="contra" placeholder="Ingresa una contraseña valida" required >
 				<input type="submit" value="Ingresar">

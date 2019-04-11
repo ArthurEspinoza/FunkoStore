@@ -16,6 +16,18 @@ body {
 }
 
 
+/*Link para el nombre del usuario*/
+
+#idUsr {
+    margin-left: 45%;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 23px;
+    text-transform: capitalize;
+}
+
+
 /* Style the links inside the navigation bar */
 
 .topnav a {
@@ -109,6 +121,7 @@ table {
     float: left;
 }
 
+
 /*th {
     color: #5a5a5a;
     text-align: center;
@@ -144,9 +157,11 @@ td h3 {
     color: #46211A;
 }
 
+
 /*h2 {
     color: #5a5a5a;
 }*/
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 

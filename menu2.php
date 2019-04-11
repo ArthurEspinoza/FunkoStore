@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    $nombreUsuario = $_SESSION['nombreUsuario'];
+    //echo $nombreUsuario;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -27,6 +32,7 @@
         <a href="menuHarryPotter.php" class="active">Harry Potter</a>
         <a href="menuDisney.php" class="active">Disney</a>
         <a href="menuPaquetes.php" class="active">Paquetes</a>
+        <a href="#" id="idUsr">Hola <?php echo $nombreUsuario?></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>

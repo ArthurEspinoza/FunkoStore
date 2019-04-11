@@ -12,6 +12,7 @@
         $infousuario = $loginusuario->fetch(PDO::FETCH_ASSOC);
         session_start();
         $_SESSION['idUsuario'] = $infousuario['idusuario'];
+        $_SESSION['nombreUsuario'] = $infousuario['nombre'];
         echo '<script>
             alert("Acceso concedido");
             window.location.href="../menu2.php";
