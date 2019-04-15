@@ -11,6 +11,7 @@
     <script type="text/javascript" src="js_scripts/compra.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
     <script>
@@ -48,7 +49,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Bran Stark <br> POP! $249</h3>
-                        <input type="button" name="comprarBran" id="btnBran" value="Comprar">
+                        <input type="button" name="comprarBran" id="btnBran" onclick="location.href='php/compra.php?item=<?php echo urlencode('Bran Stark')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>

@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    $nombreUsuario = $_SESSION['nombreUsuario'];
+    //echo $nombreUsuario;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
