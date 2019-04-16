@@ -8,6 +8,8 @@ body {
 }
 
 section {
+    margin: 5px 15% 5px 15%;
+    width: 70%;
     background-color: #fbfbfb;
     border-radius: 10px;
     border: solid 5px #F69454;
@@ -45,6 +47,44 @@ td {
     margin: 15px 0 15px 4%;
 }
 
+#calle,
+#colonia,
+#municipio,
+#numeroExt,
+#numeroInt,
+#cp {
+    width: 60%;
+    margin: 10px 20% 10px 20%;
+}
+
+#btnAddDir,
+#btnEnviar {
+    background-color: #063852;
+    color: #fbfbfb;
+    font-weight: bold;
+}
+
+#btnRegDir,
+#btnShowDir {
+    width: 60%;
+    margin: 10px 20% 10px 20%;
+    background-color: #063852;
+    color: #fbfbfb;
+    font-weight: bold;
+}
+
+#btnAddDir:hover,
+#btnEnviar:hover {
+    background-color: #F0810F;
+    color: #404040;
+}
+
+#btnRegDir:hover,
+#btnShowDir:hover {
+    background-color: #F0810F;
+    color: #404040;
+}
+
 #btnAddDir {
-    margin: 0 0 15px 4%;
+    margin: 15px 0 15px 0;
 }

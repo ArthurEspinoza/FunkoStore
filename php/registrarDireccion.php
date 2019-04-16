@@ -17,7 +17,7 @@ $addDir->bindParam(':numeroExt',$numeroExt,PDO::PARAM_STR);
 $addDir->bindParam(':numeroInt',$numeroInt,PDO::PARAM_STR);
 $addDir->bindParam(':cp',$cp,PDO::PARAM_STR);
 $addDir->bindParam(':idUser',$idUsuario,PDO::PARAM_STR);
-$addDir->execute();
+//$addDir->execute();
 if($addDir->execute()){
     echo 1;
 }
