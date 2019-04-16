@@ -19,7 +19,7 @@ body {
 /*Link para el nombre del usuario*/
 
 #idUsr {
-    margin-left: 45%;
+    margin-left: 30%;
     color: #fbfbfb;
     font-size: 20px;
     padding: 10px 10px 10px 10px;
@@ -39,12 +39,22 @@ body {
     font-size: 17px;
 }
 
+#btnCerrar {
+    font-weight: bold;
+}
+
 
 /* Change the color of links on hover */
 
 .topnav a:hover {
     background-color: #F69454;
     color: black;
+}
+
+#btnCerrar:hover {
+    background-color: #F69454;
+    color: black;
+    font-weight: bold;
 }
 
 
