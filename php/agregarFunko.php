@@ -28,7 +28,7 @@ if(isset($_POST['insertar'])){//Si apretamos el botón
         if($ejecutar){
             echo '<script>
             alert("Registro realizado con exito");
-            window.location.href="../acceso.php";
+            window.location.href="agregarFunko.php";
             </script>';
         }
     }
