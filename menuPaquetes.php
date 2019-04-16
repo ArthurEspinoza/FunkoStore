@@ -48,7 +48,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones -Jon Snow y Ghost <br> POP! $388</h3>
-                        <input type="button" name="comprarGhostJon" id="btnGhostJon" value="Comprar">
+                        <input type="button" name="comprarGhostJon" id="btnGhostJon" onclick="location.href='php/compra.php?item=<?php echo urlencode('SnowGhost')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -63,7 +63,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Captain Marvel - Captain Marvel y Goose the Cat  <br> POP! $494</h3>
-                        <input type="button" name="comprarCatMarvel" id="btnCatMarvel" value="Comprar">
+                        <input type="button" name="comprarCatMarvel" id="btnCatMarvel" onclick="location.href='php/compra.php?item=<?php echo urlencode('MarvelCat')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -78,7 +78,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Hercules - Baby Hercules y Baby Pegasus <br> POP! $449</h3>
-                        <input type="button" name="comprarMovieHercules" id="btnMovieHercules" value="Comprar">
+                        <input type="button" name="comprarMovieHercules" id="btnMovieHercules" onclick="location.href='php/compra.php?item=<?php echo urlencode('HercPeg')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -95,7 +95,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones Queens - Cersei Lannister, Mhysa Daenerys y Margaery <br> POP! $2,640.95</h3>
-                        <input type="button" name="comprarQueens" id="btnQueens" value="Comprar">
+                        <input type="button" name="comprarQueens" id="btnQueens" onclick="location.href='php/compra.php?item=<?php echo urlencode('LaeDarMarg')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -110,7 +110,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y la Orden del Fénix - Dumbledore, Hagrid y MadEye<br> POP! $941.10</h3>
-                        <input type="button" name="comprarOrdenFenix" id="btnOrdenFenix" value="Comprar">
+                        <input type="button" name="comprarOrdenFenix" id="btnOrdenFenix" onclick="location.href='php/compra.php?item=<?php echo urlencode('DumHagMad')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -125,7 +125,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War -Captain America, Black Widow y Iron Man<br> POP! $643.95</h3>
-                        <input type="button" name="comprarAvengers" id="btnAvengers" value="Comprar">
+                        <input type="button" name="comprarAvengers" id="btnAvengers" onclick="location.href='php/compra.php?item=<?php echo urlencode('CapBlackIro')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -142,7 +142,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y la camara de los secretos - Lucius Malfoy y Dobby <br> POP! $449</h3>
-                        <input type="button" name="comprarMalfoys" id="btnMalfoys" value="Comprar">
+                        <input type="button" name="comprarMalfoys" id="btnMalfoys" onclick="location.href='php/compra.php?item=<?php echo urlencode('LuDo')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -157,7 +157,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War - Young Gamora y Groot; Pop! Disney: Mickey's 90Th - Conductor Mickey <br> POP! $528.68</h3>
-                        <input type="button" name="comprarMarvelD" id="btnMarvelD" value="Comprar">
+                        <input type="button" name="comprarMarvelD" id="btnMarvelD" onclick="location.href='php/compra.php?item=<?php echo urlencode('GaGroMick')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -172,7 +172,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Aladdin - Pricipe Ali y Genio con lampara <br> POP! $427</h3>
-                        <input type="button" name="comprarMovieAladin" id="btnMovieAladin" value="Comprar">
+                        <input type="button" name="comprarMovieAladin" id="btnMovieAladin" onclick="location.href='php/compra.php?item=<?php echo urlencode('AlGen')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>

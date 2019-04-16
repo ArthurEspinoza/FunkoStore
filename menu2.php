@@ -64,7 +64,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Cersei Lannister <br> POP! $268</h3>
-                        <input type="button" name="comprarCersei" id="btnCersei" value="Comprar">
+                        <input type="button" name="comprarCersei" id="btnCersei" onclick="location.href='php/compra.php?item=<?php echo urlencode('Cersei Lannister')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -79,7 +79,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Mhysa Daenerys <br> POP! $239</h3>
-                        <input type="button" name="comprarDaenerys" id="btnDaenerys" value="Comprar">
+                        <input type="button" name="comprarDaenerys" id="btnDaenerys" onclick="location.href='php/compra.php?item=<?php echo urlencode('Mhysa Daenerys')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -96,7 +96,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Ghost <br> POP! $249</h3>
-                        <input type="button" name="comprarGhost" id="btnGhost" value="Comprar">
+                        <input type="button" name="comprarGhost" id="btnGhost" onclick="location.href='php/compra.php?item=<?php echo urlencode('Ghost')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -111,7 +111,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Harpy <br> POP! $400</h3>
-                        <input type="button" name="comprarHarpy" id="btnHarpy" value="Comprar">
+                        <input type="button" name="comprarHarpy" id="btnHarpy" onclick="location.href='php/compra.php?item=<?php echo urlencode('Harpy')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -126,7 +126,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Hodor <br> POP! $1,270</h3>
-                        <input type="button" name="comprarHodor" id="btnHodor" value="Comprar">
+                        <input type="button" name="comprarHodor" id="btnHodor" onclick="location.href='php/compra.php?item=<?php echo urlencode('Hodor')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -143,7 +143,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Jon Snow <br> POP! $182</h3>
-                        <input type="button" name="comprarJon" id="btnJon" value="Comprar">
+                        <input type="button" name="comprarJon" id="btnJon" onclick="location.href='php/compra.php?item=<?php echo urlencode('Jon Snow')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -158,7 +158,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Jorah Mormont <br> POP! $1,360</h3>
-                        <input type="button" name="comprarJorah" id="btnJorah" value="Comprar">
+                        <input type="button" name="comprarJorah" id="btnJorah" onclick="location.href='php/compra.php?item=<?php echo urlencode('Jorah Mormont')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -173,7 +173,7 @@
                 <tr>
                     <td>
                         <h3>Pop! TV: Game of Thrones - Margaery <br> POP! $2,600</h3>
-                        <input type="button" name="comprarMargaery" id="btnMargaery" value="Comprar">
+                        <input type="button" name="comprarMargaery" id="btnMargaery" onclick="location.href='php/compra.php?item=<?php echo urlencode('Margaery')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>

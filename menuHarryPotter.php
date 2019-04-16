@@ -48,7 +48,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y las reliquias de la muerte - Bellatrix Lestrange<br> POP! VINYL $975</h3>
-                        <input type="button" name="comprarBellatrix" id="btnBellatrix" value="Comprar">
+                        <input type="button" name="comprarBellatrix" id="btnBellatrix" onclick="location.href='php/compra.php?item=<?php echo urlencode('Bellatrix Lestrange')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -63,7 +63,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y el prisionero de azkaban - Dementor<br> POP! VINYL $238.99</h3>
-                        <input type="button" name="comprarDementor" id="btnDementor" value="Comprar">
+                        <input type="button" name="comprarDementor" id="btnDementor" onclick="location.href='php/compra.php?item=<?php echo urlencode('Dementor')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -78,7 +78,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y la camara de los secretos - Dobby <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarDobby" id="btnDobby" value="Comprar">
+                        <input type="button" name="comprarDobby" id="btnDobby" onclick="location.href='php/compra.php?item=<?php echo urlencode('Dobby')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -95,7 +95,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y la piedra filosofal - Dumbledore <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarDumbledore" id="btnDumbledore" value="Comprar">
+                        <input type="button" name="comprarDumbledore" id="btnDumbledore" onclick="location.href='php/compra.php?item=<?php echo urlencode('Dumbledore')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -110,7 +110,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y la piedra filosofal - Hagrid <br> POP! VINYL $319</h3>
-                        <input type="button" name="comprarHagrid" id="btnHagrid" value="Comprar">
+                        <input type="button" name="comprarHagrid" id="btnHagrid" onclick="location.href='php/compra.php?item=<?php echo urlencode('Hagrid')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -125,7 +125,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y La camara de los secretos - Harry Potter<br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarHarry" id="btnHarry" value="Comprar">
+                        <input type="button" name="comprarHarry" id="btnHarry" onclick="location.href='php/compra.php?item=<?php echo urlencode('Harry Potter')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -142,7 +142,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y La camara de los secretos - Hermoine Granger<br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarHermoine" id="btnHermoine" value="Comprar">
+                        <input type="button" name="comprarHermoine" id="btnHermoine" onclick="location.href='php/compra.php?item=<?php echo urlencode('Hermione Granger')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -157,7 +157,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y La orden del fenix - Lucius Malfoy<br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarLucius" id="btnLucius" value="Comprar">
+                        <input type="button" name="comprarLucius" id="btnLucius" onclick="location.href='php/compra.php?item=<?php echo urlencode('Lucius Malfoy')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -172,7 +172,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Harry Potter: Harry Potter y el cáliz de fuego - MadEye <br> POP! VINYL $539.17</h3>
-                        <input type="button" name="comprarMadEye" id="btnMadEye" value="Comprar">
+                        <input type="button" name="comprarMadEye" id="btnMadEye" onclick="location.href='php/compra.php?item=<?php echo urlencode('MadEye')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>

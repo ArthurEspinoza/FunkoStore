@@ -48,7 +48,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Ant-Man & The Wasp - Ant-Man <br> POP! $249</h3>
-                        <input type="button" name="comprarAntMan" id="btnAntman" value="Comprar">
+                        <input type="button" name="comprarAntMan" id="btnAntman" onclick="location.href='php/compra.php?item=<?php echo urlencode('Ant-Man')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -63,7 +63,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War - Black Widow <br> POP! $249</h3>
-                        <input type="button" name="comprarBlackWidow" id="btnBlackWidow" value="Comprar">
+                        <input type="button" name="comprarBlackWidow" id="btnBlackWidow" onclick="location.href='php/compra.php?item=<?php echo urlencode('Black Widow')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -78,7 +78,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War - Captain America <br> POP! $249</h3>
-                        <input type="button" name="comprarCaptainAmerica" id="btnCaptainAmerica" value="Comprar">
+                        <input type="button" name="comprarCaptainAmerica" id="btnCaptainAmerica" onclick="location.href='php/compra.php?item=<?php echo urlencode('Captain America')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -95,7 +95,7 @@
                 <tr>
                     <td>
                         <h3>Pop Marvel: Captain Marvel - Captain Marvel (w/Chase) <br> POP! VINYL $299</h3>
-                        <input type="button" name="comprarCaptainMarvel" id="btnCaptainMarvel" value="Comprar">
+                        <input type="button" name="comprarCaptainMarvel" id="btnCaptainMarvel" onclick="location.href='php/compra.php?item=<?php echo urlencode('Captain Marvel')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -110,7 +110,7 @@
                 <tr>
                     <td>
                         <h3>Pop Marvel: Avengers Infinity War - Young Gamora <br> POP! MARVEL $205</h3>
-                        <input type="button" name="comprarGamora" id="btnGamora" value="Comprar">
+                        <input type="button" name="comprarGamora" id="btnGamora" onclick="location.href='php/compra.php?item=<?php echo urlencode('Young Gamora')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -125,7 +125,7 @@
                 <tr>
                     <td>
                         <h3>Pop Marvel: Captain Marvel - Goose the Cat <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarGoose" id="btnGoose" value="Comprar">
+                        <input type="button" name="comprarGoose" id="btnGoose" onclick="location.href='php/compra.php?item=<?php echo urlencode('Goose the Cat')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -142,7 +142,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War - Groot <br> POP! $202</h3>
-                        <input type="button" name="comprarGroot" id="btnGroot" value="Comprar">
+                        <input type="button" name="comprarGroot" id="btnGroot" onclick="location.href='php/compra.php?item=<?php echo urlencode('Groot')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -157,7 +157,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Marvel: Avengers: Infinity War - Iron Man <br> POP! $249</h3>
-                        <input type="button" name="comprarIronMan" id="btnIronMan" value="Comprar">
+                        <input type="button" name="comprarIronMan" id="btnIronMan" onclick="location.href='php/compra.php?item=<?php echo urlencode('Iron Man')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -172,7 +172,7 @@
                 <tr>
                     <td>
                         <h3>Pop Marvel: Captain Marvel - Nick Fury <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarNickFury" id="btn" value=NickFury"Comprar">
+                        <input type="button" name="comprarNickFury" id="btn" onclick="location.href='php/compra.php?item=<?php echo urlencode('Nick Fury')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>

@@ -104,9 +104,10 @@
                 }
             }else{
                 echo "<h3>No existen direcciones</h3>";
+                echo '<a id="btnAddDir">Añadir Direccion</a>';
             }
         ?>
-        <button id="btnAddDir">Añadir Direccion</button>
+        <!--<button id="btnAddDir">Añadir Direccion</button>-->
         <div>
             <h2>Recuerda que al hacer la compra</h2>
             <ul>

@@ -47,8 +47,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <h3>Pop! Disney: Aladdin - Pricipe Ali<br> POP! VINYL $225</h3>
-                        <input type="button" name="comprarAladdin" id="btnAladdin" value="Comprar">
+                        <h3>Pop! Disney: Aladdin - Principe Ali<br> POP! VINYL $225</h3>
+                        <input type="button" name="comprarAladdin" id="btnAladdin" onclick="location.href='php/compra.php?item=<?php echo urlencode('Principe Ali')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -63,7 +63,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Wreck-It Ralph 2 - Fix-It Felix<br> POP! VINYL $177.46</h3>
-                        <input type="button" name="comprarFelix" id="btnFelix" value="Comprar">
+                        <input type="button" name="comprarFelix" id="btnFelix" onclick="location.href='php/compra.php?item=<?php echo urlencode('Fix-It Felix')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -78,7 +78,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Aladdin - Genio con lampara <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarGenie" id="btnGenie" value="Comprar">
+                        <input type="button" name="comprarGenie" id="btnGenie" onclick="location.href='php/compra.php?item=<?php echo urlencode('Genio con lampara')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -95,7 +95,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Hercules - Hades - Exclusivo Brilla en la Oscuridad <br> POP! VINYL $749.90</h3>
-                        <input type="button" name="comprarHades" id="btnHades" value="Comprar">
+                        <input type="button" name="comprarHades" id="btnHades" onclick="location.href='php/compra.php?item=<?php echo urlencode('Hades')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -110,7 +110,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Hercules - Baby Hercules<br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarHercules" id="btnHercules" value="Comprar">
+                        <input type="button" name="comprarHercules" id="btnHercules" onclick="location.href='php/compra.php?item=<?php echo urlencode('Baby Hercules')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -125,7 +125,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Incredibles 2 - Jack-Jack<br> POP! VINYL $226.71</h3>
-                        <input type="button" name="comprarJackJack" id="btnJackJack" value="Comprar">
+                        <input type="button" name="comprarJackJack" id="btnJackJack" onclick="location.href='php/compra.php?item=<?php echo urlencode('Jack-Jack')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -142,7 +142,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Mickey's 90Th - Conductor Mickey <br> POP! VINYL $214.98</h3>
-                        <input type="button" name="comprarMickey" id="btnMickey" value="Comprar">
+                        <input type="button" name="comprarMickey" id="btnMickey" onclick="location.href='php/compra.php?item=<?php echo urlencode('Conductor Mickey')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -157,7 +157,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Hercules - Baby Pegasus <br> POP! VINYL $249</h3>
-                        <input type="button" name="comprarPegasus" id="btnPegasus" value="Comprar">
+                        <input type="button" name="comprarPegasus" id="btnPegasus" onclick="location.href='php/compra.php?item=<?php echo urlencode('Baby Pegasus')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
@@ -172,7 +172,7 @@
                 <tr>
                     <td>
                         <h3>Pop! Disney: Christopher Robin Movie - Winnie The Pooh<br> POP! VINYL $243.97</h3>
-                        <input type="button" name="comprarPooh" id="btnPooh" value="Comprar">
+                        <input type="button" name="comprarPooh" id="btnPooh" onclick="location.href='php/compra.php?item=<?php echo urlencode('Winnie The Pooh')?>'" value="Comprar">
                     </td>
                 </tr>
             </table>
