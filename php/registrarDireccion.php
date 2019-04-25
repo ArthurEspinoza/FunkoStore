@@ -1,5 +1,6 @@
 <?php 
 include('config.php');
+session_start();//necesario debido a que se quito el session_start del config.php
 $conn = getDB();
 $idUsuario = $_SESSION['idUsuario'];
 $calle = $_POST['calle'];

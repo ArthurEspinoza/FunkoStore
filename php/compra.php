@@ -81,7 +81,7 @@
             <input type="text" name="colonia" id="colonia" placeholder="Ingresa tu colonia" required>
             <input type="text" name="municipio" id="municipio" placeholder="Ingresa tu municipio" required>
             <input type="text" name="numeroExt" id="numeroExt" placeholder="Ingresa tu numero exterior" required>
-            <input type="text" name="numeroInt" id="numeroInt" placeholder="Ingresa tu numero interior" required>
+            <input type="text" name="numeroInt" id="numeroInt" placeholder="Ingresa tu numero interior, si no hay coloca s/n">
             <input type="text" name="cp" id="cp" placeholder="Ingresa tu codigo postal">
             <button id="btnRegDir">Registrar Dirección</button>
             <button id="btnShowDir">Ocultar Registro</button>
