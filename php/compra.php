@@ -1,5 +1,5 @@
 <?php
-    //session_start();
+    session_start();
     include('config.php');
     $conn = getDB();
     $nombreUsuario = $_SESSION['nombreUsuario'];
